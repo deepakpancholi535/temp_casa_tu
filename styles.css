@@ -70,6 +70,7 @@ h1, h2, h3 { font-weight: 500; }
 .text-link:hover { color: var(--rust); border-color: var(--rust); }
 .text-link--light { color: var(--cream); border-color: rgba(238, 231, 216, .45); }
 .text-link--light:hover { color: var(--brass-light); border-color: var(--brass-light); }
+.vision__anthem-link { display: flex; margin-top: 1rem; }
 
 /* Hero: typography gets the first word; the image and bottle provide texture rather than noise. */
 .hero { display: grid; grid-template-columns: minmax(0, .94fr) minmax(0, 1.06fr); position: relative; min-height: min(760px, calc(100svh - 120px)); overflow: hidden; }
